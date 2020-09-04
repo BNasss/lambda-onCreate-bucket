@@ -5,7 +5,7 @@ Procédure pour lancer une Lambda à la création d'un bucket. (Console)
 
 1.1 In the console go to Lambda service and select create function.
 
-1.2 Choose Author from scratch and give a function name, for the runtime we will use python3.8. Then click on create.
+1.2 Choose Author from scratch and give a function name, for the runtime we will use nodejs. Then click on create.
 
 1.3 You can type some code in the lambda function, for this example we will just return the event. Paste this code in the lambda editor.
 
