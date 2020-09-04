@@ -1,5 +1,5 @@
 # lambda-onCreate-bucket
-Procédure pour lancer une Lambda à la création d'un bucket. (Console)
+Step to launch a lambda function after bucket creation. (Console)
 
 ## 1. Create a Lambda Function.
 
