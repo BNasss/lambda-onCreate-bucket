@@ -26,15 +26,17 @@ Don't forget to click on save before continuing.
 
 2.1 In the console go to CloudTrail and click on Trails at the left then create trail.
 
-2.2 Give a name to your new trail and disable Log file SSE-KMS encryption, then click on Next.
+2.2 Give a name to your new trail and disable Log file SSE-KMS encryption.
 
-2.3 Enable Management events and Data events then click next. 
+2.3 Enable CloudWatch logs.
+
+2.4 Enable Management events and Data events then click next. 
 
 Be sure to get the data event source from s3.
 
 ![diagram](s3dataevent.png)
 
-2.4 Review your trail configuration and click on create trail.
+2.5 Review your trail configuration and click on create trail.
 
 ## 3. Create a CloudWatch event rule for s3 event.
 
